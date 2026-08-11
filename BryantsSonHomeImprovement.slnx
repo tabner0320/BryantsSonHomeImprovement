@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="BryantsSonHomeImprovement.Api/BryantsSonHomeImprovement.Api.csproj" />
+  <Project Path="BryantsSonHomeImprovement.Console/BryantsSonHomeImprovement.Console.csproj" />
+  <Project Path="BryantsSonHomeImprovement.Tests/BryantsSonHomeImprovement.Tests.csproj" />
+  <Project Path="BryantsSonHomeImprovement.Web/BryantsSonHomeImprovement.Web.csproj" />
+</Solution>
