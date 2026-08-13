@@ -3,52 +3,283 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Bryant's Son Home Improvement</title>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-    <link rel="stylesheet" href="css/site.css">
+    <title>
+        Bryant's Son Home Improvement
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="css/site.css"
+    >
 </head>
 
 <body>
 
-    <header>
-        <img src="images/logo.jpg"
-     alt="Bryant's Son Home Improvement Logo"
-     class="hero-logo">
+<header>
 
-        <h1>Bryant's Son Home Improvement, LLC</h1>
+    <img
+        src="images/logo.jpg"
+        alt="Bryant's Son Home Improvement Logo"
+        class="hero-logo"
+    >
+
+    <h1>
+        Bryant's Son Home Improvement, LLC
+    </h1>
+
+    <p>
+        Reliable remodeling, repairs,
+        and home improvement services.
+    </p>
+
+</header>
+
+
+<main>
+
+    <section class="hero">
+
+        <h2>
+            Quality Home Improvement
+            You Can Trust
+        </h2>
 
         <p>
-            Reliable remodeling, repairs, and home improvement services.
+            Professional remodeling,
+            repairs, painting, flooring,
+            drywall, decks, and more.
         </p>
-    </header>
 
-    <main>
+        <a
+            href="#services"
+            class="button"
+        >
+            View Services
+        </a>
 
-        <section class="hero">
-            <h2>Quality Home Improvement You Can Trust</h2>
+    </section>
 
-            <p>
-                Professional remodeling, repairs, painting,
-                flooring, drywall, decks, and more.
-            </p>
 
-            <a href="#services" class="button">
-                View Services
-            </a>
-        </section>
+    <section
+        id="services"
+        class="services-section"
+    >
 
-        <section id="services">
-            <h2>Our Services</h2>
+        <h2>Our Services</h2>
 
-            <div id="serviceList"></div>
-        </section>
+        <div id="serviceList">
 
-    </main>
+            <article class="service-card">
 
-    <script src="js/app.js"></script>
+                <h3>
+                    Interior Painting
+                </h3>
+
+                <p>
+                    Professional painting
+                    for interior rooms.
+                </p>
+
+                <p>
+                    Starting at $250
+                </p>
+
+                <button
+                    class="estimate-button"
+                    data-service="Interior Painting"
+                >
+                    Request Estimate
+                </button>
+
+            </article>
+
+
+            <article class="service-card">
+
+                <h3>
+                    Drywall Repair
+                </h3>
+
+                <p>
+                    Repair holes, cracks,
+                    and damaged drywall.
+                </p>
+
+                <p>
+                    Starting at $150
+                </p>
+
+                <button
+                    class="estimate-button"
+                    data-service="Drywall Repair"
+                >
+                    Request Estimate
+                </button>
+
+            </article>
+
+
+            <article class="service-card">
+
+                <h3>
+                    Flooring Installation
+                </h3>
+
+                <p>
+                    Installation of laminate,
+                    vinyl, and hardwood flooring.
+                </p>
+
+                <p>
+                    Starting at $500
+                </p>
+
+                <button
+                    class="estimate-button"
+                    data-service="Flooring Installation"
+                >
+                    Request Estimate
+                </button>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <section
+        id="estimateFormSection"
+        class="estimate-form-section"
+        hidden
+    >
+
+        <h2>
+            Request an Estimate
+        </h2>
+
+        <form id="estimateForm">
+
+            <label for="customerName">
+                Name
+            </label>
+
+            <input
+                type="text"
+                id="customerName"
+                required
+            >
+
+
+            <label for="customerPhone">
+                Phone Number
+            </label>
+
+            <input
+                type="tel"
+                id="customerPhone"
+                required
+            >
+
+
+            <label for="customerEmail">
+                Email
+            </label>
+
+            <input
+                type="email"
+                id="customerEmail"
+                required
+            >
+
+
+            <label for="address">
+                Project Address
+            </label>
+
+            <input
+                type="text"
+                id="address"
+                required
+            >
+
+
+            <label for="serviceNeeded">
+                Service Needed
+            </label>
+
+            <select
+                id="serviceNeeded"
+                required
+            >
+
+                <option value="">
+                    Select a service
+                </option>
+
+                <option value="Interior Painting">
+                    Interior Painting
+                </option>
+
+                <option value="Drywall Repair">
+                    Drywall Repair
+                </option>
+
+                <option value="Flooring Installation">
+                    Flooring Installation
+                </option>
+
+                <option value="Other">
+                    Other
+                </option>
+
+            </select>
+
+
+            <label for="preferredDate">
+                Preferred Date
+            </label>
+
+            <input
+                type="date"
+                id="preferredDate"
+                required
+            >
+
+
+            <label for="projectDescription">
+                Tell Us About Your Project
+            </label>
+
+            <textarea
+                id="projectDescription"
+                rows="6"
+                placeholder="Describe the work you need completed."
+                required
+            ></textarea>
+
+
+            <button
+                type="submit"
+                class="button"
+            >
+                Submit Estimate Request
+            </button>
+
+        </form>
+
+    </section>
+
+</main>
+
+
+<script src="js/app.js"></script>
 
 </body>
-
 </html>
