@@ -1,4 +1,4 @@
-# 🏠 Bryant's Son Home Improvement
+# Bryant's Son Home Improvement
 
 **Bryant's Son Home Improvement** is a full-stack web application built with **C#, ASP.NET Core, HTML, CSS, and JavaScript** for a home improvement business.
 
@@ -8,7 +8,7 @@ This project demonstrates full-stack development, REST API design, JavaScript AP
 
 ---
 
-## ✨ Features
+## Features
 
 ### Customer Website
 
@@ -47,7 +47,7 @@ This project demonstrates full-stack development, REST API design, JavaScript AP
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 | Category | Technology |
 |---|---|
@@ -64,7 +64,7 @@ This project demonstrates full-stack development, REST API design, JavaScript AP
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 BryantsSonHomeImprovement/
@@ -101,7 +101,7 @@ BryantsSonHomeImprovement/
 
 ---
 
-## 🔨 Available Services
+## Available Services
 
 The application currently includes services such as:
 
@@ -115,7 +115,7 @@ Customers can click **Request Estimate** to begin an estimate request for the se
 
 ---
 
-## 📝 Estimate Request Workflow
+## Estimate Request Workflow
 
 The customer estimate process works like this:
 
@@ -149,7 +149,7 @@ This demonstrates communication between a JavaScript front end and a C# back end
 
 ---
 
-## 🌐 API Endpoints
+## API Endpoints
 
 ### API Status
 
@@ -255,7 +255,7 @@ The API assigns the request an ID and records when the estimate request was subm
 
 ---
 
-## ▶️ Running the Application
+## Running the Application
 
 ### 1. Clone the Repository
 
@@ -301,7 +301,7 @@ Open the localhost address displayed in the terminal.
 
 ---
 
-## 🔗 Front-End/API Connection
+## Front-End/API Connection
 
 The JavaScript front end communicates with the ASP.NET Core API using the Fetch API.
 
@@ -328,7 +328,7 @@ The estimate information is converted into JSON and sent to the C# API using an 
 
 ---
 
-## 🧪 Running Tests
+## Running Tests
 
 Run all automated tests from the solution directory:
 
@@ -340,7 +340,7 @@ The test project uses **xUnit** and **WebApplicationFactory** to test API functi
 
 ---
 
-## 💾 Data Storage
+## Data Storage
 
 The application currently uses **in-memory data storage**.
 
@@ -350,7 +350,7 @@ A database can be added in a future version for permanent storage.
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 Potential future enhancements include:
 
@@ -370,7 +370,7 @@ Potential future enhancements include:
 
 ---
 
-## 🎯 Project Purpose
+## Project Purpose
 
 Bryant's Son Home Improvement was created to demonstrate the development of a practical full-stack application using **C#, ASP.NET Core, JavaScript, HTML, and CSS**.
 
@@ -390,7 +390,7 @@ The project demonstrates:
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Theophilus Abner**
 
@@ -399,6 +399,6 @@ The project demonstrates:
 
 ---
 
-## 🏗️ Developer
+## Developer
 
 Developed as a full-stack software development project using **C#, ASP.NET Core, JavaScript, HTML, CSS, REST APIs, and JSON**.
